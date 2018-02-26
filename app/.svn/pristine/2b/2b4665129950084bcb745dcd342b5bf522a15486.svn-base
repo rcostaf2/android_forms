@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_sync.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_sync.xml"
+    },
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_clock.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_main_clock.xml"
+    },
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity_os_detail.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_main_activity_os_detail.xml"
+    },
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_signature.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_signature.xml"
+    },
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_obra.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_main_obra.xml"
+    },
+    {
+        "merged": "C:\\androide\\osaltarede\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\androide\\osaltarede\\app\\src\\main\\res\\menu\\menu_main.xml"
+    }
+]

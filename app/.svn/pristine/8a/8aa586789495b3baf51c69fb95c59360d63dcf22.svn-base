@@ -1,0 +1,213 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.murilo.osaltarede.activities.ActivityFinishOs">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    >
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+    <TextView
+        android:id="@+id/section_label0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reparo Efetuado"
+        android:layout_alignParentLeft="true"
+
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <Spinner
+        android:id="@+id/editTextReparo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label0"
+         />
+
+    <TextView
+            android:id="@+id/section_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude Cliente"
+            android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextReparo"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextLatitude"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/section_label"
+            android:editable="false"
+            android:enabled="false" />
+        <TextView
+    android:id="@+id/section_label2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Longitude Cliente"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/editTextLatitude"
+    android:textStyle="bold"
+    android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLongitude"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label2"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextLongitude"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextData"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label3"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observacao"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextData"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/textViewObs"
+        android:layout_below="@+id/section_label4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/section_label5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Serviço Recebido Por"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewObs"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextServico"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label5"
+         />
+    <TextView
+        android:id="@+id/section_label6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Documento"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextServico"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDocumento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/section_label6"
+ />
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/btassinatura"
+        android:layout_below="@+id/editTextDocumento"
+        android:background="#FFFFFFFF">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Assinatura"
+            android:textSize="18dp" android:paddingBottom="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/assFunc"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/ic_border_color_black_24dp"/>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageCliente"
+        android:layout_below="@+id/btassinatura"/>
+    <LinearLayout
+        android:id="@+id/fullscreen_content_controls"
+        style="?metaButtonBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:background="@color/black_overlay"
+        android:orientation="horizontal"
+        android:layout_below="@+id/imageCliente"
+        tools:ignore="UselessParent">
+
+
+
+        <Button
+            android:id="@+id/end_button"
+            style="?metaButtonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/dummy_button" />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>
+</LinearLayout>
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+
+
+

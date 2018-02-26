@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_friend"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/friend_profile_picture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="28sp"
+            android:text="Button"
+            android:background="@layout/round_shape"
+            android:textColor="#f8fdf9" />
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/friend_online_imageview"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:text="Exemplo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/friend_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/friend_name"
+            android:layout_toLeftOf="@id/friend_online_imageview"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="Exemplo"
+            android:textStyle="italic"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/friend_bairro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/friend_state"
+            android:layout_toLeftOf="@id/friend_online_imageview"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingLeft="8dp"
+            android:paddingBottom="5dp"
+            android:text="Bairro"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/friend_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingBottom="2dp"
+            android:text="DD/MM/YYYY"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/friend_turno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/friend_date"
+
+            android:text="Manha"
+            android:textSize="14sp"/>
+        <ImageView
+            android:id="@+id/friend_online_imageview"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/friend_turno"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+
+            android:paddingTop="1dp"
+        android:src="@drawable/ic_play_circle_outline_black_18dp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/friend_online_imageview"
+            android:layout_toRightOf="@+id/friend_profile_picture"
+            android:paddingLeft="8dp"
+            android:paddingTop="2dp"
+            android:text="Exemplo"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/friend_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/friend_name"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:text="Exemplo"
+            android:textStyle="italic"
+            android:textSize="14sp"/>
+
+
+    </RelativeLayout>
+
+

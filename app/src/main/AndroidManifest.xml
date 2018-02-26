@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aroos.metacom">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!--<service android:name="PACKAGENAME$DownloadService"         />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.aroos.metacom.activities.SplashActivity"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppFullScreenTheme" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="d3f38312095798da8b059aea775f7de63946cea6" />
+
+        <activity
+            android:name="com.aroos.metacom.activities.others.MainActivityOsDetail"
+            android:label="@string/title_activity_main_activity_os_detail"
+            android:parentActivityName="com.aroos.metacom.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.ActivityFinishOs"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_activity_finish_os"
+            android:parentActivityName="com.aroos.metacom.activities.others.MainActivityOsDetail"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.others.MainActivityOsDetail" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.Signature"
+            android:label="@string/title_activity_signature"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.aroos.metacom.activities.UsercreenActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_usercreen"
+            android:parentActivityName="com.aroos.metacom.activities.MainActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.ClockTimeActivity"
+            android:label="Registro de Ponto"
+            android:parentActivityName="com.aroos.metacom.activities.MainActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.ActivityDiario"
+            android:label="@string/title_activity_activity_diario"
+            android:parentActivityName="com.aroos.metacom.activities.MainActivity"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.ActivityDiarioForm"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_activity_diario_form"
+            android:parentActivityName="com.aroos.metacom.activities.ActivityDiario"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.ActivityDiario" />
+        </activity>
+        <activity
+            android:name="com.aroos.metacom.activities.DiarioSync"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_activity_diario_sync"
+            android:parentActivityName="com.aroos.metacom.activities.ActivityDiario"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/FullscreenTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.aroos.metacom.activities.ActivityDiario" />
+        </activity>
+    </application>
+
+</manifest>

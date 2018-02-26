@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">AROOS</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Login ou Matricula</string>
+    <string name="prompt_password">Senha </string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Campo inválido</string>
+    <string name="error_invalid_password">Senha muito curta</string>
+    <string name="error_incorrect_password">Senha Incorreta</string>
+    <string name="error_field_required">Campo Requerido</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_splash">AROOS</string>
+    <string name="title_activity_main">AROOS</string>
+    <string name="action_settings">Sair</string>
+    <string name="title_activity_main_activity_osdetail">Atendimento da OS</string>
+    <string name="section_format">Passo %1$d de 4</string>
+    <string name="title_itemos_list">ItemsOss</string>
+    <string name="title_itemos_detail">ItemOs Detail</string>
+    <string name="title_activity_main_activity_os_detail">Atendimento da OS</string>
+    <string name="title_activity_signature">Assinatura</string>
+    <string name="title_activity_activity_finish_os">Encerramento da OS</string>
+    <string name="dummy_button">Encerrar</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string-array name="motivo_encerramento">
+        <item>Substituido Conector RJ</item>
+        <item>Trocar de porta</item>
+        <item>Reset de senha</item>
+        <item>Defeito rede interna do cliente</item>
+        <item>Defeito equipamento do cliente</item>
+        <item>Site destino não existe</item>
+        <item>Outros</item>
+
+    </string-array>
+    <string name="action_download">Download</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_info">Cancelar</string>
+    <string name="vInfo">Version Info</string>
+    <string name="cancel">Cancelar</string>
+    <string name="c_name">Kyanogen Technologies</string>
+
+    <string name="title_activity_usercreen">Edição Usuário</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_activity_diario">Diário de Obras</string>
+    <string name="title_activity_activity_diario_form">Preenchimento do Serviço</string>
+    <string name="title_activity_activity_diario_sync">Sincronização do Serviço</string>
+    <string name="todo">TODO</string>
+
+</resources>

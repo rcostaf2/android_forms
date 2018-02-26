@@ -1,0 +1,409 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTextWhite">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.murilo.osaltarede.activities.others.MainActivityOsDetail$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_3label1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plano"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPlano"
+        android:layout_below="@+id/section_3label1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_3label21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IP"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPlano"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextIP"
+        android:layout_below="@+id/section_3label21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/section_3label3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextIP"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextMAC"
+        android:layout_below="@+id/section_3label3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+    <TextView
+        android:id="@+id/section_3label4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextMAC"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextLogin"
+        android:layout_below="@+id/section_3label4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_3label5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextLogin"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSenha"
+        android:layout_below="@+id/section_3label5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/section_3label7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Propriedade Equipamento"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextSenha"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextpropEquip"
+        android:layout_below="@+id/section_3label7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/section_3label10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P. Elétrico"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextpropEquip"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTexteletrico"
+        android:layout_below="@+id/section_3label10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+    <TextView
+        android:id="@+id/section_3label11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servidor"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTexteletrico"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextServidor"
+        android:layout_below="@+id/section_3label11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/section_3label12"
+
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextServidor"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="POP / RB"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextpop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude POP / RB"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonPop"
+                android:background="@android:drawable/ic_menu_myplaces" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextpopLat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:editable="false"
+            android:enabled="false"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude POP / RB"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextpopLong"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:editable="false"
+            android:enabled="false"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/section_3label6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interface"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/section_3label12"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextInterface"
+        android:layout_below="@+id/section_3label6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/section_3label69"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextInterface"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:id="@+id/section_3label61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/editTextInterface"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSwitch"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude Switch"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButtonSwitch"
+                android:background="@android:drawable/ic_menu_myplaces" />
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextswitchLat"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:editable="false"
+            android:enabled="false"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude Switch"
+            android:layout_alignParentLeft="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextswitchLong"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:editable="false"
+            android:enabled="false"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/section_3label62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Porta"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/section_3label69"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPorta"
+        android:layout_below="@+id/section_3label62"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/section_3label13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conexão"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPorta"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextconexao"
+        android:layout_below="@+id/section_3label13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+
+    <TextView
+        android:id="@+id/section_3label9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nr Cabo"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextconexao"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcabo"
+        android:layout_below="@+id/section_3label9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+         />
+    <TextView
+        android:id="@+id/section_label134"
+        android:layout_width="wrap_content"
+        android:text="     "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextcabo"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/section_label135"
+        android:layout_width="wrap_content"
+        android:text="     "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label134"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:src="@android:drawable/ic_input_add"
+        android:background="@color/accent_material_light"
+        app:backgroundTint="@color/abc_secondary_text_material_dark"
+        android:layout_above="@+id/editTextIP"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
+</ScrollView>

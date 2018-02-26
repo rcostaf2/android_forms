@@ -1,0 +1,86 @@
+package com.example.murilo.osaltarede.activities.models;
+
+import java.io.Serializable;
+
+/**
+ * Created by murilo on 02/04/2016.
+ */
+public class DiarioItem implements Serializable {
+    private int id;
+    private int estacao_id;
+    private int tecnico_id;
+
+    public int getTecnico_id() {
+        return tecnico_id;
+    }
+
+    public void setTecnico_id(int tecnico_id) {
+        this.tecnico_id = tecnico_id;
+    }
+
+    private String info;
+    private String capa;
+    private String servicos;
+    private String imagem;
+    private String keysave;
+
+    public String getKeysave() {
+        return keysave;
+    }
+
+    public void setKeysave(String keysave) {
+        this.keysave = keysave;
+    }
+
+    public int getEstacao_id() {
+        return estacao_id;
+    }
+
+    public void setEstacao_id(int estacao_id) {
+        this.estacao_id = estacao_id;
+    }
+
+
+
+    public String getInfo() {
+        return info;
+    }
+
+    public void setInfo(String info) {
+        this.info = info;
+    }
+
+    public String getCapa() {
+        return capa;
+    }
+
+    public void setCapa(String capa) {
+        this.capa = capa;
+    }
+
+    public String getServicos() {
+        return servicos;
+    }
+
+    public void setServicos(String servicos) {
+        this.servicos = servicos;
+    }
+
+    public String getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
+    }
+
+    public DiarioItem(){}
+
+    public int getId(){
+        return id;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+
+ }

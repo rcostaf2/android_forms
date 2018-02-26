@@ -1,0 +1,28 @@
+package com.example.murilo.osaltarede.activities.models;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.util.Base64;
+
+import java.io.ByteArrayOutputStream;
+import java.io.Serializable;
+
+/**
+ * Created by murilo on 03/04/2016.
+ */
+public class DImagem implements Serializable {
+
+    private String imagem;
+
+
+
+    public DImagem(){}
+
+    public String getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(String imagem) {
+        this.imagem = imagem;
+    }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+tools:context=".activities.MainActivity">
+
+<include
+    android:id="@+id/tool_bar"
+    layout="@layout/tool_bar"
+    android:visibility="visible">
+</include>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/tool_bar">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:visibility="gone"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:id="@+id/lin_lay2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="211dp"
+            android:layout_height="211dp"
+            android:id="@+id/splash"
+            android:background="@drawable/iconoresult"
+             />
+        <TextView
+            android:id="@+id/splashmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="@color/colorTextBlack"
+            android:text="Sincronize o aplicativo para receber Dados de sua responsabilidade"
+            android:textStyle="italic"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/splashmsgsync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="@color/colorTextBlack"
+            android:text="Sincronizando as Dados de sua responsabilidade"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:visibility="gone"/>
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>

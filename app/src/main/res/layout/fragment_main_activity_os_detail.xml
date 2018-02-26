@@ -1,0 +1,271 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.aroos.metacom.activities.others.MainActivityOsDetail$PlaceholderFragment">
+
+
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número da OS"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextOs"
+        android:layout_below="@+id/section_label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label21"
+        android:layout_width="wrap_content"
+        android:text="Designação"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextOs"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDesign"
+        android:layout_below="@+id/section_label21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label3"
+        android:layout_width="wrap_content"
+        android:text="Tipo"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDesign"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTipo"
+        android:layout_below="@+id/section_label3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label4"
+        android:layout_width="wrap_content"
+        android:text="Defeito Reclamado"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTipo"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDefeito"
+        android:layout_below="@+id/section_label4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label5"
+        android:layout_width="wrap_content"
+        android:text="Abertura"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextDefeito"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextAbertura"
+        android:layout_below="@+id/section_label5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label6"
+        android:layout_width="wrap_content"
+        android:text="Agendamento"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAbertura"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextAgendamento"
+        android:layout_below="@+id/section_label6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label7"
+        android:layout_width="wrap_content"
+        android:text="Periodo"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextAgendamento"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPeriodo"
+        android:layout_below="@+id/section_label7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label8"
+        android:layout_width="wrap_content"
+        android:text="Solicitante"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPeriodo"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextSolicitante"
+        android:layout_below="@+id/section_label8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label9"
+        android:layout_width="wrap_content"
+        android:text="Cliente"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextSolicitante"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCliente"
+        android:layout_below="@+id/section_label9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label10"
+        android:layout_width="wrap_content"
+        android:text="Telefone"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCliente"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextTelefone"
+        android:layout_below="@+id/section_label10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label11"
+        android:layout_width="wrap_content"
+        android:text="Celular"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTelefone"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextCelular"
+        android:layout_below="@+id/section_label11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label12"
+        android:layout_width="wrap_content"
+        android:text="Observação Abertura"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextCelular"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextObservacaoAbertura"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/section_label12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+
+    <TextView
+        android:id="@+id/section_label13"
+        android:layout_width="wrap_content"
+        android:text="Atendente"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextObservacaoAbertura"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextObservacaoAtendente"
+        android:inputType="textMultiLine"
+        android:layout_below="@+id/section_label13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:editable="false"
+        android:enabled="false" />
+    <TextView
+        android:id="@+id/section_label134"
+        android:layout_width="wrap_content"
+        android:text="     "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextObservacaoAtendente"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/section_label135"
+        android:layout_width="wrap_content"
+        android:text="     "
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section_label134"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+</RelativeLayout>
+</ScrollView>
