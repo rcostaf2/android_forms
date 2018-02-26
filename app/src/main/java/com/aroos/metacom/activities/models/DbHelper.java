@@ -14,23 +14,7 @@ import java.util.List;
  * Created by murilo on 02/04/2016.
  */
 public  class DbHelper extends SQLiteOpenHelper {
-     //private static final String NOME_BASE = "osaltarede_mob";
-    //altarede
-//    private static final String NOME_BASE = "aroos_mob";
-//    private static final int VERSAO_BASE = 1;
-    //public String ROOT_URL = "http://aroos.altarede.com.br/altarede";
-//    public String ROOT_URL = "http://177.130.1.206/altarede";
-    // metacom
-    private static final String NOME_BASE = "aroos_metacom";
-    private static final int VERSAO_BASE = 1;
-    public String ROOT_URL = "http://metacom.aroos.com.br";
-//    public String ROOT_URL = "http://fibracom.aroos.com.br";
-
-    //public String ROOT_URL = "http://aroos.altarede.com.br/altarede";
-
-
-   // public String ROOT_URL = "http://177.130.1.206/metacom";
-
+   
     //private static final String DATABASE_ALTER_TEAM_2 = "ALTER TABLE "
       //      + " USERS " + " ADD COLUMN " + " PERFIL " + " string;";
    String sqlCreatePonto = " CREATE TABLE PONTOS( id INTEGER PRIMARY KEY AUTOINCREMENT, " +
